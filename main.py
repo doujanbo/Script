@@ -38,3 +38,5 @@ screenshot("desktop")
 coordinates = ReturnCoordinates("./Screenshot/desktop.bmp", "./Screenshot/qq.bmp", 0.9)
 coordinate = coordinates[0]['result']
 pyautogui.moveTo(coordinate[0], coordinate[1], 0.6, pyautogui.easeInQuad)
+
+print(“推送测试”)
